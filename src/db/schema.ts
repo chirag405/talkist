@@ -3,7 +3,7 @@ import {
   text,
   timestamp,
   boolean,
-  integer,
+  integer as _integer, // eslint-disable-line @typescript-eslint/no-unused-vars
 } from "drizzle-orm/pg-core";
 
 export const user = pgTable("user", {

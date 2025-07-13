@@ -134,7 +134,7 @@ export function SignInView() {
           </form>
 
           <div className="text-center text-sm text-gray-600">
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <Link
               href="/sign-up"
               className="font-medium text-blue-600 hover:text-blue-500"
